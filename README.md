@@ -25,6 +25,8 @@ For more details about HMFGL, please refer to our paper [[TMI](https://ieeexplor
 
 Running the code of data preprocessing in ./data/{dataset}/xxx.ipynb to preprocess the raw data to standard data as the input of HMFGL.
 
+The download link for the TADPOLE dataset is https://tadpole.grand-challenge.org/Data/.
+
 ### Step 2: Training and test
 
 Running
