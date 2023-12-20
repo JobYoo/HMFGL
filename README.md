@@ -20,12 +20,19 @@ For more details about HMFGL, please refer to our paper [[TMI](https://ieeexplor
 * munkres
 
 ## Code running
+### Step 1: Data
+
+The data preprocessing process are provided in [[./data/{dataset}](https://github.com/JobYoo/MMGL/blob/main/data/)].
+The download link for the TADPOLE dataset is https://tadpole.grand-challenge.org/Data/.
+
+If you want to use your own data, you have to provide :
+
+* a csv.file which contains multi-modal features, and
+* a multi-modal feature dict.
 
 ### Step 1: Data prprocessing
 
 Running the code of data preprocessing in ./data/{dataset}/xxx.ipynb to preprocess the raw data to standard data as the input of HMFGL.
-
-The download link for the TADPOLE dataset is https://tadpole.grand-challenge.org/Data/.
 
 ### Step 2: Training and test
 
@@ -33,19 +40,4 @@ Running
 
 ```
 ./{dataset}-simple-2-concat-weighted-cosine.sh
-```
-
-## Data
-
-The data preprocessing process are provided in [[./data/{dataset}](https://github.com/JobYoo/MMGL/blob/main/data/)].
-
-If you want to use your own data, you have to provide :
-
-* a csv.file which contains multi-modal features, and
-* a multi-modal feature dict.
-
-If you find our work useful, please consider citing： 
-
-```
-
 ```
