@@ -10,7 +10,7 @@ For more details about HMFGL, please refer to our paper [[TMI](https://ieeexplor
 ![HMFGL](https://github.com/JobYoo/HMFGL/assets/153283474/5b04258d-09c1-47ba-ba99-30761c15b690)
 ## Requirements
 
-* PyTorch >= 1.1.0
+* PyTorch = 1.9.1
 * python 3.6
 * networkx
 * scikit-learn
