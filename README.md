@@ -8,8 +8,6 @@ Graph neural networks (GNNs) have gained significant attention in disease predic
 
 For more details about HMFGL, please refer to our paper [[TMI](https://ieeexplore.ieee.org/abstract/document/9733917)] [[Arxiv](https://arxiv.org/abs/2203.05880)].
 
-![image-20231219213830865](README.assets/image-20231219213830865.png)
-
 ## Requirements
 
 * PyTorch >= 1.1.0
