@@ -22,7 +22,7 @@ Graph neural networks (GNNs) have gained significant attention in disease predic
 ## Code running
 ### Step 1: Data
 
-The data preprocessing process are provided in [[./data/{dataset}](https://github.com/JobYoo/MMGL/blob/main/data/)].
+The data preprocessing process are provided in [./data/{dataset}].
 The download link for the TADPOLE dataset is https://tadpole.grand-challenge.org/Data/.
 
 If you want to use your own data, you have to provide :
@@ -39,5 +39,5 @@ Running the code of data preprocessing in ./data/{dataset}/xxx.ipynb to preproce
 Running
 
 ```
-./{dataset}-simple-2-concat-weighted-cosine.sh
+./HMFGL/{dataset}-simple-2-concat-weighted-cosine.sh
 ```
