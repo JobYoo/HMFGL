@@ -39,5 +39,5 @@ Running the code of data preprocessing in ./data/{dataset}/xxx.ipynb to preproce
 Running
 
 ```
-./HMFGL/{dataset}-simple-2-concat-weighted-cosine.sh
+./HMFGL/HMFGL-{dataset}.sh
 ```
